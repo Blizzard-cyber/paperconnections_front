@@ -1,0 +1,77 @@
+<template>
+ <div class="card">
+  <a-row class="grid-demo" justify="end">
+   <a-col :span="4" v-for="(item,index) in items" :key="index">
+    <a-card  class="card-box"  hoverable>
+      <template #actions>
+        <span class="icon-hover"> <IconThumbUp /> </span>
+        <span class="icon-hover"> <IconStar /> </span>
+        <span class="icon-hover"> <IconMore /> </span>
+      </template>
+      <template #cover>
+        <div
+          :style="{
+            height: '204px',
+            overflow: 'hidden',
+          }"
+        >
+          <img
+            :style="{ width: '100%', transform: 'translateY(-20px)' }"
+            alt="dessert"
+            src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a20012a2d4d5b9db43dfc6a01fe508c0.png~tplv-uwbnlip3yd-webp.webp"
+          />
+        </div>
+      </template>
+      <a-card-meta title="Card Title" description="This is the description">
+        <template #avatar>
+          <div
+            :style="{ display: 'flex', alignItems: 'center', color: '#1D2129' }"
+          >
+            <a-avatar :size="24" :style="{ marginRight: '8px' }">
+              A
+            </a-avatar>
+            <a-typography-text>Username</a-typography-text>
+          </div>
+        </template>
+      </a-card-meta>
+    </a-card>
+   </a-col>
+  </a-row>
+ </div>
+</template>
+  
+  <script>
+  import {
+    IconThumbUp,
+    IconMore,
+    IconStar
+  } from '@arco-design/web-vue/es/icon';
+  
+  export default {
+    components: { IconThumbUp,  IconMore ,IconStar},
+};
+  da
+  </script>
+  <style scoped>
+  .icon-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    transition: all 0.1s;
+  }
+  .icon-hover:hover {
+    background-color: rgb(var(--gray-2));
+  }
+  .card-box {
+  width: 360px;
+  margin-left: 24px;
+  transition-property: all;
+}
+.card-box:hover {
+  transform: translateY(-4px);
+}
+  </style>
+  

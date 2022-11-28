@@ -13,10 +13,12 @@
     "fetch-jsonp": "^1.2.1",
     "less": "^4.1.2",
     "less-loader": "^11.0.0",
+    "tdesign-vue-next": "^0.24.9",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.39.1",
     "@vue/cli-plugin-babel": "~5.0.4",
     "@vue/cli-plugin-eslint": "~5.0.4",
     "@vue/cli-service": "~5.0.4",
