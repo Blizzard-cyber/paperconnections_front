@@ -1,0 +1,47 @@
+{
+  "list": [
+    "paper",
+    "user",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "paper": [
+    "https://www.so.com/s",
+    "q",
+    "输入关键词搜索",
+    "论文"
+  ],
+  "user": [
+    "https://www.baidu.com/s",
+    "wd",
+    "输入用户名搜索",
+    "用户"
+  ],
+  "1":[
+    "https://www.baidu.com/s",
+    "wd",
+    "输入用户名搜索",
+    ""
+  ],
+  "2":[
+    "https://www.baidu.com/s",
+    "wd",
+    "输入用户名搜索",
+    ""
+  ],
+  "3":[
+    "https://www.baidu.com/s",
+    "wd",
+    "输入用户名搜索",
+    ""
+  ],
+  "4":[
+    "https://www.baidu.com/s",
+    "wd",
+    "输入用户名搜索",
+    ""
+  ]
+
+}
