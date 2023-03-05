@@ -14,7 +14,6 @@
 
 - [ ] 搜索结果可视化展示
 
-  ![image-20221023162853388](C:\Users\tao020704\AppData\Roaming\Typora\typora-user-images\image-20221023162853388.png)
 
 ## 技术栈
 
@@ -25,11 +24,6 @@
 - 数据库：neo4j(基于NoSQL)
 - 前后端通信：Axios（基于Ajax）
 
-## 小组分工
-
-- 前端：王涛
-- 后端：田康毅，高梓钦
-- 数据库：朱旭东
 
 ## 项目开源地址
 
